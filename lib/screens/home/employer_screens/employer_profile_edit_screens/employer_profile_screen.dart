@@ -806,7 +806,7 @@ class _EmployerProfileScreenState extends State<EmployerProfileScreen> {
                 Text(
                   label,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Colors.grey,
+                    color: const Color.fromARGB(255, 190, 114, 114),
                   ),
                 ),
                 const SizedBox(height: 2),
